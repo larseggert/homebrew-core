@@ -16,6 +16,6 @@ class Utftex < Formula
   end
 
   test do
-    system "#{bin}/utftex '(\\frac{hello}{world})'"
+    system bin/"utftex", "\\left(\\frac{hello}{world}\\right)"
   end
 end
